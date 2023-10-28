@@ -13,6 +13,9 @@ struct ContentView: View {
     @State private var money = 0
     var body: some View {
         VStack {
+            Text("work")
+            
+                .padding()
             Text("You have \(money) amount of money")
             Button{
                 print("OI WHY YOU PRESS ME")
@@ -46,7 +49,17 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .cornerRadius(10)
             }
-                        
+            Button{
+                print("OI WHY YOU PRESS ME")
+                
+            } label: {
+                Text("Buisness")
+                    .padding(20)
+                    .background(.yellow)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
+            
                     }
                 }
             }
