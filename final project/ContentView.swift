@@ -27,28 +27,31 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .cornerRadius(10)
             }
-          
+            .padding()
                         Button{
                             print("OI WHY YOU PRESS ME")
                             
                         } label: {
                             Text("quest")
                                 .padding(20)
-                                .background(.yellow)
+                                .background(.red)
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                         }
-                        
+                        .padding()
+            
             Button{
                 print("OI WHY YOU PRESS ME")
                 
             } label: {
                 Text("quizes")
                     .padding(20)
-                    .background(.yellow)
+                    .background(.blue)
                     .foregroundColor(.white)
                     .cornerRadius(10)
             }
+            .padding()
+            
             Button{
                 print("OI WHY YOU PRESS ME")
                 
@@ -59,6 +62,7 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .cornerRadius(10)
             }
+            .padding()
             
                     }
                 }
