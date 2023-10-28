@@ -7,20 +7,49 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
+    
+    @State private var money = 0
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+            Text("You have \(money) amount of money")
+            Button{
+                print("OI WHY YOU PRESS ME")
+                
+            } label: {
+                Text("clicker")
+                    .padding(20)
+                    .background(.yellow)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
+          
+                        Button{
+                            print("OI WHY YOU PRESS ME")
+                            
+                        } label: {
+                            Text("quest")
+                                .padding(20)
+                                .background(.yellow)
+                                .foregroundColor(.white)
+                                .cornerRadius(10)
+                        }
+                        
+            Button{
+                print("OI WHY YOU PRESS ME")
+                
+            } label: {
+                Text("quizes")
+                    .padding(20)
+                    .background(.yellow)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
+                        
+                    }
+                }
+            }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+            
+
